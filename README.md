@@ -1,4 +1,5 @@
-# WOC-project
+VacciCo19
+
 In VacciCo19 , we are trying to build a website that will serve to the issue of :-
 A) Misinformation regarding availability of oxygen cylinders, vaccine and other government policies
 B) Help in providing accurate and most authenticate info regarding covid19 situation, cylinders, vaccine at a single portal.
