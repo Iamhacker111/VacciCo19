@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel landing page</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">
+                We will fight corona together
+            </h2>
+            <div class="toggle">
+
+            </div>
+        </header>
+
+        <video src="explore.mp4.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Stay at home , Be safe</h2>
+            <h3>Follow government lockdown policy</h3>
+            <p>The ability of individuals who are asymptomatic or have mild symptoms, but can still spread the disease, explains why social distancing – limiting contact with others – in addition to other actions such as washing your hands and not touching your face, is so critical. The World Health Organization is starting to refer to it as physical distancing instead to emphasise the importance of being far away enough to avoid infection from the respiratory droplets that carry the virus. It is important that every single person adheres to this, whether or not they think they are sick.</p>
+            <p>For people who are symptomatic, or have been in contact with someone who is showing symptoms, most countries are advising total self-isolation, for a week or two in order to limit further transmission of the virus.</p>
+            <a href="https://www.business-standard.com/article/current-affairs/coronavirus-lockdown-update-india-karnataka-delhi-maharashtra-tamil-nadu-uttar-pradesh-uttarakhand-know-lockdown-guidelines-rules-in-details-121051000348_1.html" target="_blank">Explore</a>
+            </div>
+            <ul class="social">
+
+                <li><a href="https://www.pmindia.gov.in/en/" target="_blank"><img src="twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="whatsapp.png" alt=""></a></li>
+                <li><a href="#"><img src="in.png" alt=""></a></li>
+                <!-- <li><img src="insta.jpg" alt=""></li> -->
+                <li><a href="#"><img src="fb.jpeg" alt=""></a></li>
+
+            </ul>
+        
+    </section>
+    
+    <div class="menu">
+        <!-- <div class="label-container" style="border-left: 1px solid #dadada;">
+            <label class="float-left">Select state</label>
+            <div class="float-right loader" style="margin-top: 5px; display: none;">
+                <i class="fa fa-spinner fa-spin"></i> <i style=" font-size: 12px;">Loading...</i>
+            </div>
+            <div class="float-clear"></div>
+        </div> -->
+        
+        <div class="list-container" style="background-color: transparent;">
+            <ul class="data-list" id="state">
+                <h4>Select state</h4>
+                <li><a href="http://dashboard.covid19.ap.gov.in/ims/hospbed_reports/">
+                        <div class="tab">
+                            <div class="float-left text">Andhra Pradesh</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://twitter.com/MyGovArunachal target=_top">
+                        <div class="tab">
+                            <div class="float-left text">Arunachal Pradesh</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://covid19.assam.gov.in/">
+                        <div class="tab">
+                            <div class="float-left text">Assam</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">
+                        <div class="tab">
+                            <div class="float-left text">Bihar</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://cg.nic.in/health/covid19/RTPBedAvailable.aspx">
+                        <div class="tab">
+                            <div class="float-left text">Chhattisgarh</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://www.goa.gov.in/covid-19/">
+                        <div class="tab">
+                            <div class="float-left text">Goa</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href=" https://gujcovid19.gujarat.gov.in/">
+                        <div class="tab">
+                            <div class="float-left text">Gujrat</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://coronaharyana.in/">
+                        <div class="tab">
+                            <div class="float-left text">Haryana</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href=" http://www.nrhmhp.gov.in/content/covid-health-facilities">
+                        <div class="tab">
+                            <div class="float-left text">Himachal Pradesh</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href=" https://www.jharkhand.gov.in/Home/Covid19Dashboard">
+                        <div class="tab">
+                            <div class="float-left text">Jharkhand</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://bbmpgov.com/chbms/">
+                        <div class="tab">
+                            <div class="float-left text">Karnataka</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://covid19jagratha.kerala.nic.in/home/addHospitalDashBoard">
+                        <div class="tab">
+                            <div class="float-left text">Kerala</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="http://sarthak.nhmmp.gov.in/covid/facility-bed-occupancy-dashboard/">
+                        <div class="tab">
+                            <div class="float-left text">Madhya Pradesh</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://twitter.com/mybmc target=_top">
+                        <div class="tab">
+                            <div class="float-left text">Maharashtra</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="http://nrhmmanipur.org/ target=_top">
+                        <div class="tab">
+                            <div class="float-left text">Manipur</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://meghealth.in/MeghCare.html target=_top">
+                        <div class="tab">
+                            <div class="float-left text">Meghalaya</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://mcovid19.mizoram.gov.in/ target=_top">
+                        <div class="tab">
+                            <div class="float-left text">Mizoram</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://covid19.nagaland.gov.in/ target=_top">
+                        <div class="tab">
+                            <div class="float-left text">Nagaland</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://statedashboard.odisha.gov.in/ target=_top">
+                        <div class="tab">
+                            <div class="float-left text">Odisha</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <div class="tab">
+                            <div class="float-left text">Punjab</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href=" https://covidinfo.rajasthan.gov.in/COVID19HOSPITALBEDSSTATUSSTATE.aspx">
+                        <div class="tab">
+                            <div class="float-left text">Rajasthan</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <div class="tab">
+                            <div class="float-left text">Sikkim</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://stopcorona.tn.gov.in/">
+                        <div class="tab">
+                            <div class="float-left text">Tamilnadu</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="http://164.100.112.24/SpringMVC/getHospital_Beds_Status_Citizen.htm">
+                        <div class="tab">
+                            <div class="float-left text">Telangana</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <div class="tab">
+                            <div class="float-left text">Tripura</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href=" http://dgmhup.gov.in/EN/covid19bedtrack">
+                        <div class="tab">
+                            <div class="float-left text">Uttar Pradesh</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="https://covid19.uk.gov.in/bedssummary.aspx">
+                        <div class="tab">
+                            <div class="float-left text">Uttarakhand</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <div class="tab">
+                            <div class="float-left text">West Bengal</div>
+                            <div class="float-clear"></div>
+                        </div>
+                    </a>
+                </li>
+                <h4>Union Territories:</h4>
+                <li><a href="#">
+                    <div class="tab">
+                        <div class="float-left text">Andaman and Nicobar Island</div>
+                        <div class="float-clear"></div>
+                    </div>
+                </a>
+            </li>
+            <li><a href=" http://chdcovid19.in/">
+                    <div class="tab">
+                        <div class="float-left text">Chandigarh</div>
+                        <div class="float-clear"></div>
+                    </div>
+                </a>
+            </li>
+            <li><a href=" https://covidfacility.dddgov.in/">
+                <div class="tab">
+                    <div class="float-left text">Dadra and nagra haveli </div>
+                    <div class="float-clear"></div>
+                </div>
+            </a>
+        </li>
+        <li><a href="https://coronabeds.jantasamvad.org/">
+            <div class="tab">
+                <div class="float-left text">Delhi</div>
+                <div class="float-clear"></div>
+            </div>
+        </a>
+    </li>
+    <li><a href=" https://covid.ladakh.gov.in/">
+        <div class="tab">
+            <div class="float-left text">Ladhakh</div>
+            <div class="float-clear"></div>
+        </div>
+    </a>
+</li>
+<li><a href="#">
+    <div class="tab">
+        <div class="float-left text">Lakshadweep</div>
+        <div class="float-clear"></div>
+    </div>
+</a>
+</li>
+<li><a href="#">
+    <div class="tab">
+        <div class="float-left text">Jammu and Kasmir</div>
+        <div class="float-clear"></div>
+    </div>
+</a>
+</li>
+<li><a href="https://covid19dashboard.py.gov.in/ target=_top">
+    <div class="tab">
+        <div class="float-left text">puducherry</div>
+        <div class="float-clear"></div>
+    </div>
+</a>
+</li>
+
+    
+
+
+  <script>
+   
+    const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+
+  </script>  
+</body>
+</html>
