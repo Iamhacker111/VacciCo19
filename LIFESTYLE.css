@@ -1,6 +1,6 @@
 .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/dsdddd.jpg");
-  background-position: 50% 50%;
+  background: transparent;
+
 }
 
 .u-section-1 .u-sheet-1 {
@@ -23,8 +23,9 @@
 
 .u-section-1 .u-image-1 {
   min-height: 401px;
-  background-image: url("images/8a5949fb941acc25163f78bd0f5a75db7b061ca2754271fd0cffe5505213b63b7bdb58739ed59cb899c1784d20c17d3c8f1d9038ffab984954a78e_1280.jpg");
+  background-image: url("8a5949fb941acc25163f78bd0f5a75db7b061ca2754271fd0cffe5505213b63b7bdb58739ed59cb899c1784d20c17d3c8f1d9038ffab984954a78e_1280.jpg");
   background-position: 50% 50%;
+  opacity: 50%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -43,8 +44,9 @@
 
 .u-section-1 .u-image-2 {
   min-height: 401px;
-  background-image: url("images/506dda94faf8c9a1b0f5e91bd0f94abae0e5f319a2e5574ae84237926cbb30724ddc551e93c9bae0fcf9581420eb660224c3417fab336f41e36908_1280.jpg");
+  background-image: url("506dda94faf8c9a1b0f5e91bd0f94abae0e5f319a2e5574ae84237926cbb30724ddc551e93c9bae0fcf9581420eb660224c3417fab336f41e36908_1280.jpg");
   background-position: 50% 50%;
+  opacity: 50%;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -62,7 +64,8 @@
 
 .u-section-1 .u-image-3 {
   min-height: 409px;
-  background-image: url("images/10116254f6041acc5ade83670d2e9ac5201a546fa575c9f0f06a3e01f20c31a2c267c7567c34daec1f8aa7d07a59bf4394dc514e6b88c293af64e5_1280.png");
+  background-image: url("10116254f6041acc5ade83670d2e9ac5201a546fa575c9f0f06a3e01f20c31a2c267c7567c34daec1f8aa7d07a59bf4394dc514e6b88c293af64e5_1280.png");
+  opacity: 50%;
   background-position: 50% 50%;
 }
 
@@ -81,8 +84,9 @@
 
 .u-section-1 .u-image-4 {
   min-height: 409px;
-  background-image: url("images/58004ea085325cf7eca63bf09ea61c03091123bdaf602c0fcdea50b5cdd4d2c141a9d5514cd5bdf296b4b49f6c6033c43c543cd1f670d6ff555db2_12801.jpg");
+  background-image: url("58004ea085325cf7eca63bf09ea61c03091123bdaf602c0fcdea50b5cdd4d2c141a9d5514cd5bdf296b4b49f6c6033c43c543cd1f670d6ff555db2_12801.jpg");
   background-position: 50% 50%;
+  opacity: 50%;
 }
 
 .u-section-1 .u-container-layout-4 {
