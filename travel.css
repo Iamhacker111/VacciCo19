@@ -123,6 +123,21 @@ header .logo{
     line-height: 1em;
     text-transform: uppercase;
 }
+.text h4{
+    font-size: 3em;
+    font-weight: 700;
+    color: red;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.text h5
+{
+  font-size: 3em;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
 .text p{
     font-size: 1.1em;
     margin: 20px 0;
@@ -150,8 +165,8 @@ header .logo{
 
 .social{
     position: absolute;
-    bottom: 20px;
-
+    bottom: 200px;
+    left: 20px;
     z-index: 10;
     display: flex;
      justify-content: center; 
@@ -180,39 +195,45 @@ header .logo{
     transform: scale(.5) translateY(-15px);
 }
 
-.menu{
-    border: 2px solid black;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 300px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-
-
-
-}
-.menu ul{
-    position: relative;
-    
-    /* list-style: none; */
-
-}
-.menu ul li{
-    list-style: none;
-}
-.menu ul li a{
-    text-decoration: none;
-    font-size: 24px;
-    color: #111;
+.menu
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  
+  line-height: 50px;
+  
 }
 
-.menu ul li a:hover{
-    color: var(--overlay-color);
+.menu a.active {
+  background-color: rgb(167, 48, 48);
+  color: rgb(211, 31, 31);
+}
 
+
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+.menu ul li a:hover
+{
+  color: #0d0ba1; 
 }
 @media(max-width: 891px){
     .showcase,
@@ -235,16 +256,16 @@ header .logo{
     outline: none;
 }
 .menu {
-    width: 19%;
-    background: rgb(227, 255, 185);
+   
+    background: white;
     
 }
 .list-container {
-    width: 90%;
+    width: 60%;
     height: 95vh;
     overflow: auto;
     /* border: 1px solid #ec3434; */
-    border: 3px solid #102b16
+    border: 3px solid snow;
     background-color: #145075;
 }
 
@@ -278,10 +299,10 @@ header .logo{
 
 .list-container .data-list li a .tab {
     padding: 2px 5px;
-    border: 2px solid green;
-    border-bottom: 3px solid #e8e8e8;
-    background-color: rgb(214, 210, 210);
+   
+    background-color: transparent;
     min-height: 30px;
+    width: 600px;
     border-radius: 10px;
 
     
